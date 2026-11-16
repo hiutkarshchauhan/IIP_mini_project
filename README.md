@@ -1,3 +1,22 @@
 # IIP_mini_project
-A responsive 6-page university website built with HTML, CSS and JavaScript, featuring a course filter, fee estimator, FAQ accordion and a validated contact form.
-Meridian Institute of Technology is a fictional university website I built as a mini project using HTML, CSS and JavaScript. It has six pages: Home, About, Courses, Admissions, Campus Life and Contact. It is fully responsive and includes scroll animations, a course search and filter, a fee calculator, an FAQ accordion and client-side form validation. It is hosted on GitHub Pages.
+A responsive, 6-page university website built with plain **HTML, CSS and JavaScript** (no frameworks). Meridian is a fictional institute created for a mini project.
+
+## Pages
+| File | Purpose |
+|------|---------|
+| `index.html` | Home — hero, animated stats, highlights, testimonials |
+| `about.html` | Story, mission/vision, timeline, leadership |
+| `courses.html` | Programs with live filter + search |
+| `admissions.html` | Steps, fee table, fee estimator, FAQ accordion |
+| `campus.html` | Facilities, clubs, annual events |
+| `contact.html` | Contact details + validated form |
+
+## Features
+- Fully responsive layout with mobile hamburger menu
+- Sticky header, scroll-reveal animations, animated counters, back-to-top button
+- Course filter + search, FAQ accordion, fee calculator
+- Client-side contact form validation
+- Respects `prefers-reduced-motion`
+
+## Tech
+HTML5 · CSS3 (Grid, Flexbox, custom properties) · Vanilla JavaScript (ES6)
