@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meridian Institute of Technology | Home</title>
+  <meta name="description" content="Meridian Institute of Technology — a fictional university website built with HTML, CSS and JavaScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand"><span class="brand-mark">M</span><span>Meridian<small>Institute of Technology</small></span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="campus.html">Campus Life</a>
+        <a href="contact.html">Contact</a>
+        <a href="admissions.html" class="btn btn-sm">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div>
+        <span class="eyebrow">Admissions open 2027</span>
+        <h1>Where curious minds become <span>world-class engineers</span></h1>
+        <p>Meridian Institute of Technology blends rigorous academics, hands-on labs and industry partnerships to prepare you for a career that matters.</p>
+        <div class="hero-actions">
+          <a href="admissions.html" class="btn">Start Your Application</a>
+          <a href="courses.html" class="btn outline">Explore Programs</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <h3>Upcoming Dates</h3>
+        <ul>
+          <li><b>15 Jan</b> Applications open for B.Tech &amp; BBA</li>
+          <li><b>20 Mar</b> Entrance assessment (online)</li>
+          <li><b>10 Apr</b> Merit list announced</li>
+          <li><b>01 Aug</b> Orientation week begins</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><strong data-count="12000" data-suffix="+">0</strong><span>Students enrolled</span></div>
+      <div class="stat"><strong data-count="450" data-suffix="+">0</strong><span>Faculty members</span></div>
+      <div class="stat"><strong data-count="92" data-suffix="%">0</strong><span>Placement rate</span></div>
+      <div class="stat"><strong data-count="150" data-suffix="+">0</strong><span>Recruiting partners</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Why Meridian</span>
+        <h2>An education built around you</h2>
+        <p>Everything on campus is designed to help you learn by doing, collaborate widely and graduate career-ready.</p>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal"><div class="icon">🔬</div><h3>Research-first Labs</h3><p>Work in AI, robotics and clean-energy labs from your very first year with faculty mentors.</p></article>
+        <article class="card reveal"><div class="icon">🤝</div><h3>Industry Partnerships</h3><p>Live projects, internships and guest lectures from leading technology and finance companies.</p></article>
+        <article class="card reveal"><div class="icon">🌏</div><h3>Global Exposure</h3><p>Semester exchange and dual-degree options with partner universities across 14 countries.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Featured Programs</span>
+        <h2>Pick a path that fits your ambition</h2>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal"><span class="tag">Engineering</span><h3>B.Tech Computer Science</h3><p>Algorithms, systems, AI and software engineering with a capstone startup studio.</p><div class="meta"><span>⏱ 4 years</span><span>🎓 Undergraduate</span></div></article>
+        <article class="card reveal"><span class="tag">Management</span><h3>BBA &amp; MBA Pathway</h3><p>Entrepreneurship, finance and analytics with an integrated 5-year management track.</p><div class="meta"><span>⏱ 3–5 years</span><span>🎓 UG / PG</span></div></article>
+        <article class="card reveal"><span class="tag">Science</span><h3>B.Sc Data Science</h3><p>Statistics, machine learning and big-data tools taught through real-world datasets.</p><div class="meta"><span>⏱ 3 years</span><span>🎓 Undergraduate</span></div></article>
+      </div>
+      <p style="text-align:center;margin-top:36px"><a href="courses.html" class="btn dark">View All Programs</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Student Voices</span>
+        <h2>Hear from our community</h2>
+      </div>
+      <div class="grid grid-3">
+        <article class="card reveal"><p class="quote">“The project labs gave me real shipping experience. I had two offers before graduation.”</p><div class="person"><span class="avatar">A</span><div><strong>Aarav Mehta</strong><small>B.Tech CSE, Class of 2025</small></div></div></article>
+        <article class="card reveal"><p class="quote">“Faculty here treat you like a colleague. My research mentor helped me publish in my second year.”</p><div class="person"><span class="avatar">S</span><div><strong>Sara Khan</strong><small>B.Sc Data Science, Class of 2024</small></div></div></article>
+        <article class="card reveal"><p class="quote">“The entrepreneurship cell funded my first venture. Meridian gave me the confidence to start.”</p><div class="person"><span class="avatar">R</span><div><strong>Rohan Verma</strong><small>BBA, Class of 2023</small></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta reveal">
+        <h2>Your future starts with one application</h2>
+        <p>Join thousands of students building careers that make a difference.</p>
+        <a href="admissions.html" class="btn">Apply for 2027</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div><h4>Meridian Institute of Technology</h4><p>A fictional university created as a front-end mini project using HTML, CSS and JavaScript.</p></div>
+        <div><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
+        <div><h4>Student Life</h4><ul><li><a href="campus.html">Campus</a></li><li><a href="campus.html#clubs">Clubs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Visit us</h4><ul><li>12 Knowledge Park</li><li>Ghaziabad, India</li><li>info@meridian.example</li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© <span id="year">2026</span> Meridian Institute of Technology. Demo project.</span><span>Built with HTML · CSS · JS</span></div>
+    </div>
+  </footer>
+  <button id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

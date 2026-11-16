@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses | Meridian Institute of Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand"><span class="brand-mark">M</span><span>Meridian<small>Institute of Technology</small></span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html" class="active">Courses</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="campus.html">Campus Life</a>
+        <a href="contact.html">Contact</a>
+        <a href="admissions.html" class="btn btn-sm">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero page-hero">
+    <div class="container">
+      <div>
+        <div class="crumbs"><a href="index.html">Home</a> / Courses</div>
+        <h1>Programs designed for <span>tomorrow's careers</span></h1>
+        <p>Filter by school or search by keyword to find the program that matches your goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="engineering">Engineering</button>
+        <button class="chip" data-filter="management">Management</button>
+        <button class="chip" data-filter="science">Science</button>
+        <button class="chip" data-filter="design">Design</button>
+      </div>
+      <div class="field" style="max-width:420px">
+        <input type="search" id="courseSearch" placeholder="Search programs e.g. AI, finance, data…" aria-label="Search programs">
+      </div>
+      <p id="courseCount" style="color:var(--muted);margin-bottom:24px"></p>
+
+      <div class="grid grid-3">
+        <article class="card course" data-dept="engineering"><span class="tag">Engineering</span><h3>B.Tech Computer Science</h3><p>Programming, data structures, operating systems, AI and cloud with a final-year capstone.</p><div class="meta"><span>⏱ 4 years</span><span>💺 240 seats</span></div></article>
+        <article class="card course" data-dept="engineering"><span class="tag">Engineering</span><h3>B.Tech Electronics &amp; Communication</h3><p>Embedded systems, IoT, signal processing and wireless communication.</p><div class="meta"><span>⏱ 4 years</span><span>💺 120 seats</span></div></article>
+        <article class="card course" data-dept="engineering"><span class="tag">Engineering</span><h3>B.Tech Mechanical &amp; Robotics</h3><p>Design, manufacturing, automation and robotics with workshop-based learning.</p><div class="meta"><span>⏱ 4 years</span><span>💺 90 seats</span></div></article>
+        <article class="card course" data-dept="management"><span class="tag">Management</span><h3>BBA Entrepreneurship</h3><p>Build a venture from idea to pitch with mentors, incubator access and case studies.</p><div class="meta"><span>⏱ 3 years</span><span>💺 120 seats</span></div></article>
+        <article class="card course" data-dept="management"><span class="tag">Management</span><h3>MBA Finance &amp; Analytics</h3><p>Corporate finance, markets, risk and business analytics for future leaders.</p><div class="meta"><span>⏱ 2 years</span><span>💺 90 seats</span></div></article>
+        <article class="card course" data-dept="science"><span class="tag">Science</span><h3>B.Sc Data Science</h3><p>Statistics, machine learning and visualisation using real-world datasets.</p><div class="meta"><span>⏱ 3 years</span><span>💺 80 seats</span></div></article>
+        <article class="card course" data-dept="science"><span class="tag">Science</span><h3>B.Sc Applied Physics</h3><p>Quantum devices, optics and materials science with advanced lab access.</p><div class="meta"><span>⏱ 3 years</span><span>💺 60 seats</span></div></article>
+        <article class="card course" data-dept="design"><span class="tag">Design</span><h3>B.Des UI/UX &amp; Product Design</h3><p>Human-centred design, prototyping and front-end fundamentals for digital products.</p><div class="meta"><span>⏱ 4 years</span><span>💺 50 seats</span></div></article>
+        <article class="card course" data-dept="design"><span class="tag">Design</span><h3>B.Des Animation &amp; Game Design</h3><p>Storytelling, 3D modelling and game engines taught by industry artists.</p><div class="meta"><span>⏱ 4 years</span><span>💺 40 seats</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container split">
+      <div class="reveal">
+        <span class="eyebrow">Learning Experience</span>
+        <h2>More than lectures</h2>
+        <p>Every program includes project-based learning, an internship term and access to our certification partners.</p>
+        <ul class="checks"><li>Industry-designed curriculum updated yearly</li><li>Free access to cloud and design tools</li><li>Mentor assigned from day one</li></ul>
+        <p style="margin-top:20px"><a class="btn dark" href="admissions.html">Check Eligibility &amp; Fees</a></p>
+      </div>
+      <div class="visual warm reveal">📚</div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div><h4>Meridian Institute of Technology</h4><p>A fictional university created as a front-end mini project using HTML, CSS and JavaScript.</p></div>
+        <div><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
+        <div><h4>Student Life</h4><ul><li><a href="campus.html">Campus</a></li><li><a href="campus.html#clubs">Clubs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Visit us</h4><ul><li>12 Knowledge Park</li><li>Ghaziabad, India</li><li>info@meridian.example</li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© <span id="year">2026</span> Meridian Institute of Technology. Demo project.</span><span>Built with HTML · CSS · JS</span></div>
+    </div>
+  </footer>
+  <button id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

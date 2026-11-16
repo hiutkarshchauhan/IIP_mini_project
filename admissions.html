@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admissions | Meridian Institute of Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand"><span class="brand-mark">M</span><span>Meridian<small>Institute of Technology</small></span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="admissions.html" class="active">Admissions</a>
+        <a href="campus.html">Campus Life</a>
+        <a href="contact.html">Contact</a>
+        <a href="admissions.html" class="btn btn-sm">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero page-hero">
+    <div class="container">
+      <div>
+        <div class="crumbs"><a href="index.html">Home</a> / Admissions</div>
+        <h1>Your journey begins <span>here</span></h1>
+        <p>A simple four-step process, transparent fees and scholarships for deserving students.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center reveal"><span class="eyebrow">How to Apply</span><h2>Four simple steps</h2></div>
+      <div class="grid grid-4 steps">
+        <article class="card step reveal"><h3>Register</h3><p>Create your applicant account with email and phone.</p></article>
+        <article class="card step reveal"><h3>Fill the Form</h3><p>Add academic details and upload documents.</p></article>
+        <article class="card step reveal"><h3>Take the Test</h3><p>Attempt the online assessment from home.</p></article>
+        <article class="card step reveal"><h3>Get Your Offer</h3><p>Check results and pay the seat confirmation fee.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head reveal"><span class="eyebrow">Fee Structure</span><h2>Transparent yearly fees</h2><p>Sample figures for this demo project.</p></div>
+      <div class="table-wrap reveal">
+        <table>
+          <thead><tr><th>Program</th><th>Duration</th><th>Tuition / year</th><th>Eligibility</th></tr></thead>
+          <tbody>
+            <tr><td>B.Tech (all branches)</td><td>4 years</td><td>₹1,80,000</td><td>10+2 with PCM, 60%</td></tr>
+            <tr><td>BBA / MBA</td><td>3 / 2 years</td><td>₹1,20,000</td><td>10+2 any stream / Graduation</td></tr>
+            <tr><td>B.Sc</td><td>3 years</td><td>₹90,000</td><td>10+2 with Science, 55%</td></tr>
+            <tr><td>B.Des</td><td>4 years</td><td>₹1,50,000</td><td>10+2 any stream + portfolio</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card reveal" style="margin-top:36px;max-width:620px">
+        <h3>Fee estimator</h3>
+        <p style="margin-bottom:18px">Choose a program to see your estimated first-year cost.</p>
+        <div class="field">
+          <label for="feeProgram">Program</label>
+          <select id="feeProgram">
+            <option value="180000">B.Tech</option>
+            <option value="120000">BBA / MBA</option>
+            <option value="90000">B.Sc</option>
+            <option value="150000">B.Des</option>
+          </select>
+        </div>
+        <label style="display:flex;gap:10px;align-items:center;font-weight:500"><input type="checkbox" id="feeHostel" style="width:auto"> Include hostel &amp; meals (₹90,000)</label>
+        <p style="margin-top:20px;font-size:1.1rem">Estimated total: <strong id="feeTotal" style="font-size:1.6rem;color:var(--navy)">₹0</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head center reveal"><span class="eyebrow">FAQ</span><h2>Frequently asked questions</h2></div>
+      <div class="faq">
+        <div class="faq-item"><button class="faq-q">Is there an entrance exam?</button><div class="faq-a"><p>Yes. Applicants take a 90-minute online assessment covering aptitude and subject basics. Valid national entrance scores can also be submitted.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Do you offer scholarships?</button><div class="faq-a"><p>Merit scholarships of up to 50% are available, along with need-based aid and sports quotas.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Is hostel accommodation guaranteed?</button><div class="faq-a"><p>First-year students receive priority hostel allotment on a first-come, first-served basis.</p></div></div>
+        <div class="faq-item"><button class="faq-q">Can I change my branch after admission?</button><div class="faq-a"><p>Branch change is possible at the end of the first year, based on CGPA and seat availability.</p></div></div>
+      </div>
+      <p style="text-align:center;margin-top:36px"><a href="contact.html" class="btn dark">Still have questions? Contact us</a></p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div><h4>Meridian Institute of Technology</h4><p>A fictional university created as a front-end mini project using HTML, CSS and JavaScript.</p></div>
+        <div><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
+        <div><h4>Student Life</h4><ul><li><a href="campus.html">Campus</a></li><li><a href="campus.html#clubs">Clubs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Visit us</h4><ul><li>12 Knowledge Park</li><li>Ghaziabad, India</li><li>info@meridian.example</li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© <span id="year">2026</span> Meridian Institute of Technology. Demo project.</span><span>Built with HTML · CSS · JS</span></div>
+    </div>
+  </footer>
+  <button id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

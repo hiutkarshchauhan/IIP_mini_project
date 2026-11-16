@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Meridian Institute of Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand"><span class="brand-mark">M</span><span>Meridian<small>Institute of Technology</small></span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" id="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="campus.html">Campus Life</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="admissions.html" class="btn btn-sm">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero page-hero">
+    <div class="container">
+      <div>
+        <div class="crumbs"><a href="index.html">Home</a> / Contact</div>
+        <h1>We'd love to <span>hear from you</span></h1>
+        <p>Questions about admissions, programs or campus visits? Send us a message and our team will respond shortly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split" style="align-items:start">
+      <div class="reveal">
+        <span class="eyebrow">Get in touch</span>
+        <h2>Contact information</h2>
+        <ul class="info-list" style="margin-top:28px">
+          <li><div class="icon">📍</div><div><h4>Address</h4><p>12 Knowledge Park, Ghaziabad, Uttar Pradesh, India</p></div></li>
+          <li><div class="icon">📞</div><div><h4>Phone</h4><p>+91 98765 43210 (Mon–Sat, 9am–5pm)</p></div></li>
+          <li><div class="icon">✉️</div><div><h4>Email</h4><p>admissions@meridian.example</p></div></li>
+          <li><div class="icon">🕘</div><div><h4>Campus tours</h4><p>Every Saturday at 11:00 AM</p></div></li>
+        </ul>
+      </div>
+
+      <div class="form-card reveal">
+        <h3 style="margin-bottom:20px">Send us a message</h3>
+        <form id="contactForm" novalidate>
+          <div class="field"><label for="name">Full name *</label><input type="text" id="name" name="name" placeholder="Your name"><span class="err">Please enter your name (min 2 characters).</span></div>
+          <div class="field"><label for="email">Email *</label><input type="email" id="email" name="email" placeholder="you@example.com"><span class="err">Please enter a valid email address.</span></div>
+          <div class="field"><label for="phone">Phone (optional)</label><input type="tel" id="phone" name="phone" placeholder="+91 98765 43210"><span class="err">Please enter a valid phone number.</span></div>
+          <div class="field"><label for="topic">Topic</label><select id="topic" name="topic"><option>Admissions</option><option>Courses</option><option>Scholarships</option><option>Campus visit</option><option>Other</option></select></div>
+          <div class="field"><label for="message">Message *</label><textarea id="message" name="message" rows="5" placeholder="How can we help?"></textarea><span class="err">Message should be at least 10 characters.</span></div>
+          <button type="submit" class="btn dark">Send message</button>
+          <div class="success" id="formSuccess" role="status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div><h4>Meridian Institute of Technology</h4><p>A fictional university created as a front-end mini project using HTML, CSS and JavaScript.</p></div>
+        <div><h4>Explore</h4><ul><li><a href="about.html">About</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
+        <div><h4>Student Life</h4><ul><li><a href="campus.html">Campus</a></li><li><a href="campus.html#clubs">Clubs</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div><h4>Visit us</h4><ul><li>12 Knowledge Park</li><li>Ghaziabad, India</li><li>info@meridian.example</li></ul></div>
+      </div>
+      <div class="foot-bottom"><span>© <span id="year">2026</span> Meridian Institute of Technology. Demo project.</span><span>Built with HTML · CSS · JS</span></div>
+    </div>
+  </footer>
+  <button id="toTop" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
