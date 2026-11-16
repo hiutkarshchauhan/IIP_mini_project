@@ -1,4 +1,5 @@
 # IIP_mini_project
+https://hiutkarshchauhan.github.io/IIP_mini_project/
 A responsive, 6-page university website built with plain **HTML, CSS and JavaScript** (no frameworks). Meridian is a fictional institute created for a mini project.
 
 ## Pages
